@@ -97,33 +97,16 @@ Watch the system in action:
 
 📁 Project Structure
 LuminaResc/
-│── README.md
 │── main.m
+│── simulate_system.m
+│── hazard_detection.m
+│── lighting_controller.m
+│── generate_lights.m
+│── snap_to_route.m
+│── ui_setup.m
+│── analytics_init.m
+│── analytics_update.m
 
-├── core/
-│   ├── simulate_system.m
-│   ├── lighting_controller.m
-│   ├── hazard_detection.m
-│   ├── energy_model.m
-
-├── ui/
-│   ├── control_panel.m
-│   ├── map_renderer.m
-
-├── analytics/
-│   ├── energy_analysis.m
-│   ├── performance_metrics.m
-
-├── utils/
-│   ├── snap_to_route.m
-│   ├── helper_functions.m
-
-├── results/
-│   ├── images/
-│   ├── graphs/
-
-├── demo/
-│   └── demo_link.txt
 ## Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
