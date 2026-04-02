@@ -94,36 +94,33 @@ Result: Clearly shows dynamic path lighting in action.
 ## 🎥 Demo
 Watch the system in action:  
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
+
 📁 Project Structure
 
 LuminaResc-Mine-Safety-System/
-
-src/
-│── FinalMine_Technical_System.m
-│── adaptive_lighting.m
-│── energy_analysis.m
-│── energy_optimization.m
-│── emergency_response.m
-│── gas_detection.m
-│── path_planning.m
-│── sensor_simulation.m
-│── visualization_engine.m
-
-results/
-│── distance_vs_brightness.png
-│── battery_performance.png
-│── energy_consumption.png
-│── cumulative_energy_usage.png
-│── energy_saving_results.png
-│── loop_frequency_accuracy.png
-│── miner_motion.png
-│── system_visualization.png
-
-docs/
-│── demo_link.txt
-
-README.md
-.gitignore
+│
+├── src/
+│   ├── analytics_init.m
+│   ├── analytics_update.m
+│   ├── generate_lights.m
+│   ├── hazard_detection.m
+│   ├── lighting_controller.m
+│   ├── main.m
+│   ├── simulate_system.m
+│   ├── snap_to_route.m
+│   └── ui_setup.m
+│
+├── results/
+│   ├── avg_pwm_dc.png
+│   ├── battery_life.png
+│   ├── cumulative_energy_consum.png
+│   ├── energy_consum.png
+│   ├── energy_saving_results.png
+│   ├── gui.png
+│   ├── loop_fq_accuracy.png
+│   └── lux_at_miner.png
+│
+├── README.md
 
 ## Future Work
 - Real-time miner tracking using IoT  
