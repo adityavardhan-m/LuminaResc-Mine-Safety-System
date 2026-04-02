@@ -95,9 +95,8 @@ Result: Clearly shows dynamic path lighting in action.
 Watch the system in action:  
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 
-📁## 📁 Project Structure
+📁 Project Structure
 
-```plaintext
 LuminaResc-Mine-Safety-System/
 │
 ├── src/
@@ -123,18 +122,7 @@ LuminaResc-Mine-Safety-System/
 │
 └── README.md
 
-
 ## Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
-- Mobile alert system for emergency detection
-
-
-
-
-## Test
-
-```plaintext
-src/
-results/
-README.md
+- Mobile alert system for emergency detected 
