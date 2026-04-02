@@ -94,9 +94,9 @@ Result: Clearly shows dynamic path lighting in action.
 ## 🎥 Demo
 Watch the system in action:  
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
+## 📁 Project Structure
 
-📁 Project Structure
-
+```
 LuminaResc-Mine-Safety-System/
 │
 ├── src/
@@ -121,6 +121,7 @@ LuminaResc-Mine-Safety-System/
 │   └── lux_at_miner.png
 │
 └── README.md
+```
 
 ## Future Work
 - Real-time miner tracking using IoT  
