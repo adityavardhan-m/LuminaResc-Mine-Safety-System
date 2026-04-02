@@ -126,3 +126,13 @@ LuminaResc-Mine-Safety-System/
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
 - Mobile alert system for emergency detection
+
+
+
+
+## Test
+
+```plaintext
+src/
+results/
+README.md
