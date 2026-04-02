@@ -1,17 +1,17 @@
 # LuminaResc – Mine Safety System
 
-## Problem
+## 🚨Problem
 Miners face delayed evacuation during emergencies like gas leaks and seismic activity due to poor visibility and lack of clear guidance paths.
 
-## Solution
+## 💡Solution
 LuminaResc uses a smart LED guidance system that dynamically adjusts brightness based on the miner’s distance, creating a clear and energy-efficient evacuation path.
 
-## Features
+## ⚙️Features
 - Distance-based LED brightness control
 - Gas and seismic hazard detection (simulated)
 - Energy-efficient adaptive lighting system
 
-## Methodology
+## 🧠Methodology
 - Miner movement is simulated in MATLAB along a predefined path
 - Distance between miner and LEDs is continuously calculated
 - LED brightness is adjusted inversely with distance:
@@ -20,7 +20,7 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
   - Far (>40m): Low brightness  
 - Hazard conditions (gas/seismic) trigger the guided path lighting system
 
-## Results
+## 📊Results
 - Reduced evacuation decision time in simulations through clear path indication  
 - Improved visibility by dynamically increasing LED intensity near the miner  
 - Lower energy consumption compared to static full-brightness lighting  
@@ -125,7 +125,11 @@ LuminaResc-Mine-Safety-System/
 Watch the system in action:  
 👉 [Click here to view demo] https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 
-## Future Work
+## 🔮Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
 - Mobile alert system for emergency detected 
+
+
+
+
