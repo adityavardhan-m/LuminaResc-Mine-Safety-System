@@ -94,19 +94,18 @@ Result: Clearly shows dynamic path lighting in action.
 ## 🎥 Demo
 Watch the system in action:  
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
-
 📁 Project Structure
-LuminaResc/
-│── main.m
-│── simulate_system.m
-│── hazard_detection.m
-│── lighting_controller.m
-│── generate_lights.m
-│── snap_to_route.m
-│── ui_setup.m
-│── analytics_init.m
-│── analytics_update.m
 
+LuminaResc/
+├── main.m                  # Entry point
+├── simulate_system.m       # Core simulation logic
+├── hazard_detection.m      # Gas & seismic analysis
+├── lighting_controller.m   # Adaptive lighting logic
+├── generate_lights.m       # LED placement system
+├── snap_to_route.m         # Path correction logic
+├── ui_setup.m              # GUI initialization
+├── analytics_init.m        # Metrics setup
+└── analytics_update.m     # Real-time analytics
 ## Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
