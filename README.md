@@ -96,16 +96,35 @@ Watch the system in action:
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 📁 Project Structure
 
-LuminaResc/
-├── main.m                  # Entry point
-├── simulate_system.m       # Core simulation logic
-├── hazard_detection.m      # Gas & seismic analysis
-├── lighting_controller.m   # Adaptive lighting logic
-├── generate_lights.m       # LED placement system
-├── snap_to_route.m         # Path correction logic
-├── ui_setup.m              # GUI initialization
-├── analytics_init.m        # Metrics setup
-└── analytics_update.m     # Real-time analytics
+LuminaResc-Mine-Safety-System/
+
+src/
+│── FinalMine_Technical_System.m
+│── adaptive_lighting.m
+│── energy_analysis.m
+│── energy_optimization.m
+│── emergency_response.m
+│── gas_detection.m
+│── path_planning.m
+│── sensor_simulation.m
+│── visualization_engine.m
+
+results/
+│── distance_vs_brightness.png
+│── battery_performance.png
+│── energy_consumption.png
+│── cumulative_energy_usage.png
+│── energy_saving_results.png
+│── loop_frequency_accuracy.png
+│── miner_motion.png
+│── system_visualization.png
+
+docs/
+│── demo_link.txt
+
+README.md
+.gitignore
+
 ## Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
