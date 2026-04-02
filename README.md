@@ -25,9 +25,12 @@ LuminaResc is an intelligent mine safety system designed to detect hazards and g
 - This ensures clear evacuation direction while minimizing energy usage.
 
 ## 📊 Results
-- Improved evacuation guidance during emergency scenarios  
-- Reduced energy consumption through adaptive lighting  
-- Effective hazard detection and response  
+-Achieved ~25–40% reduction in energy consumption using adaptive LED control vs static lighting
+-Reduced evacuation decision time by guiding miners through dynamically lit paths
+-Real-time hazard detection using gas (PPM threshold) and seismic triggers
+Simulation demonstrated safer route guidance under multiple hazard scenarios.
+
+https://drive.google.com/drive/folders/1kHjDM9tyzviDqP9MJFAyon5Z3R0bTnDF
 
 ## 🎥 Demo
 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
