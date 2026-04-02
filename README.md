@@ -92,8 +92,10 @@ Result: Clearly shows dynamic path lighting in action.
 ---
 
 ## 🎥 Demo
+
 Watch the system in action:  
-👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
+👉 [Click here to view demo]: https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
+
 ## 📁 Project Structure
 
 ```
