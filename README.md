@@ -27,27 +27,59 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
 
 ## 📊 Simulation Outputs
 
-<table>
-<tr>
-<td align="center"><b>Avg PWM vs Distance</b><br><img src="avg_pwm_dc.png" width="300"/></td>
-<td align="center"><b>Battery Life</b><br><img src="battery_life.png" width="300"/></td>
-</tr>
+### 🔹 Distance vs Brightness Control
+Demonstrates how LED brightness dynamically adjusts based on the miner’s distance from the light source, ensuring optimal visibility.
 
-<tr>
-<td align="center"><b>Energy Consumption</b><br><img src="energy_consum.png" width="300"/></td>
-<td align="center"><b>Cumulative Energy</b><br><img src="cumulative_energy_consum.png" width="300"/></td>
-</tr>
+![Avg PWM vs Distance](./avg_pwm_vs_distance.png)
 
-<tr>
-<td align="center"><b>Energy Saving Results</b><br><img src="energysvaing_results.png" width="300"/></td>
-<td align="center"><b>Loop Frequency Accuracy</b><br><img src="loop_fq_accuracy.png" width="300"/></td>
-</tr>
+---
 
-<tr>
-<td align="center"><b>Lux at Miner</b><br><img src="lux_at_miner.png" width="300"/></td>
-<td align="center"><b>GUI Output</b><br><img src="gui.png" width="300"/></td>
-</tr>
-</table>
+### 🔹 Battery Performance
+Shows battery discharge characteristics under different operating conditions, highlighting efficiency improvements.
+
+![Battery Life](./battery_life.png)
+
+---
+
+### 🔹 Energy Consumption Analysis
+Compares energy usage between adaptive lighting and traditional static lighting systems.
+
+![Energy Consumption](./energy_consumption.png)
+
+---
+
+### 🔹 Cumulative Energy Usage
+Illustrates total energy consumption over time, emphasizing long-term efficiency benefits.
+
+![Cumulative Energy](./cumulative_energy.png)
+
+---
+
+### 🔹 Energy Savings Results
+Quantifies the total energy saved using the proposed adaptive system.
+
+![Energy Saving Results](./energy_saving_results.png)
+
+---
+
+### 🔹 Loop Frequency Accuracy
+Validates system responsiveness and timing accuracy for real-time operation.
+
+![Loop Frequency Accuracy](./loop_frequency_accuracy.png)
+
+---
+
+### 🔹 Illumination at Miner Position
+Shows how light intensity varies at the miner’s location, ensuring consistent visibility.
+
+![Lux at Miner](./lux_at_miner.png)
+
+---
+
+### 🔹 System Visualization (GUI Output)
+Graphical simulation of miner movement and adaptive LED guidance system in action.
+
+![GUI Output](./gui_output.png)>
 
 ## Demo
 Watch the demo video:  
