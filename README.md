@@ -25,15 +25,29 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
 - Improved visibility by dynamically increasing LED intensity near the miner  
 - Lower energy consumption compared to static full-brightness lighting  
 
-## Simulation Output
-### GUI
-![GUI](images/gui.png)
+## 📊 Simulation Outputs
 
-### Energy Consumption
-![Energy](images/energy_consum.png)
+<table>
+<tr>
+<td align="center"><b>Avg PWM vs Distance</b><br><img src="avg_pwm_dc.png" width="300"/></td>
+<td align="center"><b>Battery Life</b><br><img src="battery_life.png" width="300"/></td>
+</tr>
 
-### Accuracy
-![Accuracy](images/loop_fg_accuracy.png)
+<tr>
+<td align="center"><b>Energy Consumption</b><br><img src="energy_consum.png" width="300"/></td>
+<td align="center"><b>Cumulative Energy</b><br><img src="cumulative_energy_consum.png" width="300"/></td>
+</tr>
+
+<tr>
+<td align="center"><b>Energy Saving Results</b><br><img src="energysvaing_results.png" width="300"/></td>
+<td align="center"><b>Loop Frequency Accuracy</b><br><img src="loop_fq_accuracy.png" width="300"/></td>
+</tr>
+
+<tr>
+<td align="center"><b>Lux at Miner</b><br><img src="lux_at_miner.png" width="300"/></td>
+<td align="center"><b>GUI Output</b><br><img src="gui.png" width="300"/></td>
+</tr>
+</table>
 
 ## Demo
 Watch the demo video:  
