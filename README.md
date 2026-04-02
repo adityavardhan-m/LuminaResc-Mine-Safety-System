@@ -31,7 +31,7 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
 Demonstrates adaptive LED intensity based on miner distance, ensuring visibility while minimizing power usage.  
 Result: Brightness decreases smoothly with distance, maintaining efficiency without compromising safety.
 
-<img src="./avg_pwm_vs_distance.png" width="500"/>
+<img src="./avg_pwm_dc.png" width="500"/>
 
 ---
 
@@ -45,39 +45,39 @@ Result: Slower discharge rate compared to continuous full-brightness operation, 
 
 ### 🔹 Energy Consumption Analysis
 Compares energy usage between adaptive lighting and traditional static lighting.  
-Result: Adaptive system significantly reduces unnecessary power consumption during low-risk conditions.
+Result: Adaptive system reduces unnecessary power usage during low-risk conditions.
 
-<img src="./energy_consumption.png" width="500"/>
+<img src="./energy_consum.png" width="500"/>
 
 ---
 
 ### 🔹 Cumulative Energy Usage
 Tracks total energy consumption over time.  
-Result: Lower cumulative energy usage confirms long-term efficiency benefits of the system.
+Result: Lower cumulative energy confirms long-term efficiency of the system.
 
-<img src="./cumulative_energy.png" width="500"/>
+<img src="./cumulative_energy_consum.png" width="500"/>
 
 ---
 
 ### 🔹 Energy Savings Results
-Quantifies total energy saved using the proposed system.  
-Result: Noticeable overall energy savings achieved through distance-based brightness control.
+Quantifies total energy saved using the adaptive lighting system.  
+Result: Noticeable reduction in overall energy consumption.
 
-<img src="./energy_saving_results.png" width="500"/>
+<img src="./energysvaing_results.png" width="500"/>
 
 ---
 
 ### 🔹 Loop Frequency Accuracy
 Validates system timing and responsiveness.  
-Result: Stable loop frequency ensures reliable real-time performance without delays.
+Result: Stable loop execution ensures reliable real-time performance.
 
-<img src="./loop_frequency_accuracy.png" width="500"/>
+<img src="./loop_fq_accuracy.png" width="500"/>
 
 ---
 
 ### 🔹 Illumination at Miner Position
 Shows variation of light intensity at the miner’s position.  
-Result: Consistent illumination maintained, ensuring safe navigation in low-visibility conditions.
+Result: Consistent illumination ensures safe navigation.
 
 <img src="./lux_at_miner.png" width="500"/>
 
@@ -85,16 +85,15 @@ Result: Consistent illumination maintained, ensuring safe navigation in low-visi
 
 ### 🔹 System Visualization (GUI Output)
 Graphical simulation of miner movement and adaptive LED guidance.  
-Result: Clearly illustrates path guidance and dynamic lighting adjustments in real-time.
+Result: Clearly shows dynamic path lighting in action.
 
-<img src="./gui_output.png" width="500"/>
+<img src="./gui.png" width="500"/>
 
 ---
 
 ## 🎥 Demo
 Watch the system in action:  
 👉 https://drive.google.com/your-demo-link-here
-
 ## Project Structure
 - `/matlab` – src.m
 - `/images` – Graphs and diagrams  
