@@ -26,7 +26,7 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
 - Lower energy consumption compared to static full-brightness lighting  
 
 ## Simulation Output
-![LED Brightness vs Distance](images/output.png)
+!
 
 ## Demo
 Watch the demo video:  
