@@ -93,7 +93,8 @@ Result: Clearly shows dynamic path lighting in action.
 
 ## 🎥 Demo
 Watch the system in action:  
-👉 https://drive.google.com/your-demo-link-here
+👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
+
 ## Project Structure
 - `/matlab` – src.m
 - `/images` – Graphs and diagrams  
