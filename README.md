@@ -96,38 +96,34 @@ Watch the system in action:
 👉 https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 
 📁 Project Structure
-
 LuminaResc/
-│
-├── README.md
-│
-├── matlab/
-│   ├── core/                         # Core system logic
-│   │   ├── brightness_control.m      # Adjusts LED brightness based on distance
-│   │   ├── energy_model.m            # Calculates energy consumption
-│   │   └── emergency_logic.m         # Handles emergency conditions (gas/seismic)
-│   │
-│   ├── simulations/                  # Scripts to run simulations
-│   │   ├── distance_simulation.m     # Distance vs brightness behavior
-│   │   ├── energy_analysis.m         # Energy consumption comparison
-│   │   └── system_simulation.m       # Full system simulation
-│   │
-│   └── utils/                        # Helper functions (if any)
-│       └── helper_functions.m
-│
-├── results/                          # Simulation outputs
-│   ├── brightness/                   # Brightness-related graphs
-│   ├── energy/                       # Energy analysis graphs
-│   ├── system_output/                # GUI/system output visuals
-│   └── latency/                      # Response time analysis
-│
-├── docs/                             # Project documentation
-│   ├── methodology.md
-│   └── system_design.md
-│
-└── demo/
-    └── demo_link.txt                 # Link to demo video  
+│── README.md
+│── main.m
 
+├── core/
+│   ├── simulate_system.m
+│   ├── lighting_controller.m
+│   ├── hazard_detection.m
+│   ├── energy_model.m
+
+├── ui/
+│   ├── control_panel.m
+│   ├── map_renderer.m
+
+├── analytics/
+│   ├── energy_analysis.m
+│   ├── performance_metrics.m
+
+├── utils/
+│   ├── snap_to_route.m
+│   ├── helper_functions.m
+
+├── results/
+│   ├── images/
+│   ├── graphs/
+
+├── demo/
+│   └── demo_link.txt
 ## Future Work
 - Real-time miner tracking using IoT  
 - Integration with live sensor data  
