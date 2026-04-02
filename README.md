@@ -1,4 +1,4 @@
-# LuminaResc – Mine Safety System
+# LuminaResc – Smart Mine Safety & Energy Optimization System
 
 ## 🚨Problem
 Miners face delayed evacuation during emergencies like gas leaks and seismic activity due to poor visibility and lack of clear guidance paths.
@@ -24,6 +24,11 @@ LuminaResc uses a smart LED guidance system that dynamically adjusts brightness 
 - Reduced evacuation decision time in simulations through clear path indication  
 - Improved visibility by dynamically increasing LED intensity near the miner  
 - Lower energy consumption compared to static full-brightness lighting  
+
+## 🎥 Demo
+
+Watch the system in action:  
+👉🏻:https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 
 ## 📊 Simulation Outputs
 
@@ -119,11 +124,6 @@ LuminaResc-Mine-Safety-System/
 │
 └── README.md
 ```
-
-## 🎥 Demo
-
-Watch the system in action:  
-👉 [Click here to view demo] https://drive.google.com/file/d/1VvvaMlyFApfpumbpQMZ2Z2RuzVh48vud/view?usp=drivesdk
 
 ## 🔮Future Work
 - Real-time miner tracking using IoT  
